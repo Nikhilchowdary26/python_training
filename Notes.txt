@@ -1,0 +1,70 @@
+Python Collections
+---------------------
+1.List is a collection which is ordered and changeable.Allow duplicate members.
+2.Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+3.Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+4.Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+Ordered:
+-----------
+1.It means lists are in defined order and that order will not change.
+2.If you add new items to a list they will be placed at the end.
+Changeable:
+-----------
+1.The changeable means that wwe can change,add and remove items in a list after it has been created.
+Inbuilt Methods:
+------------------
+
+Lists:
+---------------------
+1.append -which is used to insert the value/any in the end of the list.
+2.insert - which is used to insert any value in the wanted index position.
+3.pop - which is used to remove the item in list which is at last index
+4.remove - which is used to remove the given value of it's first occurance in that list.
+5.del : it is a statement to delete the items in a list in a given range.
+6.clear : If we want to clear/remove all the objects present in the list.
+7.count : It is used to count how many occurances are there.
+
+
+Stacks: LIFO(Last in First Out)
+------
+Queues: FIFO(First In First Out)
+-------
+
+Tuples :
+-------
+1.count() - It Returns the number of times a specified value occurs in a tuple.
+2.index() - It Searches the tuple for a specified value and returns the position of where it was found
+
+Sets :
+-------
+1.add() - It adds the value to the end
+2.remove() - It removes the specified element
+3.clear() - Clear the entire sets.
+4.pop() - It removes the element from set(FIFO)
+5.union() - | - Return a set containing the union of sets
+6.difference() - -  Returns a set containing the difference between two or more sets
+7.intersection() - & - Returns a set, that is the intersection of two other sets
+8.symmetric_difference() - ^ - Returns a set with the symmetric differences of two sets
+
+
+Dictionaries :
+----------------
+1.get() - returns the value of a specified key
+
+
+Classes :
+-----------
+    Constructor:
+    -------------
+        1.It is a special method in a class and that is present in every class.
+            Name :- __init__() ->Magical method
+    Magic Methods :
+    ----------------
+    1.Magical methods are present in every class by default.
+        i.__init__() - It is a constructor type and it is called whenever class is initiated.
+        ii.__str__() - It controls what should be returned when the object is represented as a string.
+        iii.__eq__(self,other) - It compare two objects, if they are equal returns true otherwise false.
+            Note: The ( == ) operator compares the references(addresses) of the objects.
+        iv.__gt__(self,other) - It is used to compare b/w 2 objects and return the true if greater or else false.
+        v.__add__(self,other) - It is used to add the two object values and return the result
